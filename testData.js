@@ -1,6 +1,6 @@
 const testData = [
   {
-    "__EMPTY": 1,
+    "No": 1,
     "TC ID": "Pos_Fun_001",
     "Test Case Name": "Verify translation of compound daily conversation",
     "Input Type Length": "M",
@@ -8,10 +8,11 @@ const testData = [
     "Expected Output": "මම අද uni යන්න ඉන්නේ. ඔයාත් එන්නකෝ අපිත් එක්ක lectures යන්න. ",
     "Actual Output": "මම අද uni යන්න ඉන්නේ. ඔයාත් එන්නකෝ අපිත් එක්ක lectures යන්න. ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "The system correctly converts common english words.\r\nSinhala spelling and punctuation are correct. \r\n",
     "What is covered by the test": "Daily language usage\r\nCompound sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 2,
+    "No": 2,
     "TC ID": "Pos_Fun_002",
     "Test Case Name": "Verify translation of positive sentence form",
     "Input Type Length": "M",
@@ -19,10 +20,11 @@ const testData = [
     "Expected Output": "මේ පාර විභාගය ඔයාට හොඳටම කරන්න පුලුවන්",
     "Actual Output": "මේ පාර විභාගය ඔයාට හොඳටම කරන්න පුලුවන්",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "No spelling or formatting issues observed.\r\nPositive form of the sentence is preserved.",
     "What is covered by the test": "Response\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 3,
+    "No": 3,
     "TC ID": "Pos_Fun_003",
     "Test Case Name": "Verify  translation of negative sentence form",
     "Input Type Length": "M",
@@ -30,10 +32,11 @@ const testData = [
     "Expected Output": "ඔයා කාලය අපතේ යැව්වොත් කවදාවත් විභාගය සමත් වෙන්න බැරි වෙනවා",
     "Actual Output": "ඔයා කාලය අපතේ යැව්වොත් කවදාවත් විභාගය සමත් වෙන්න බැරි වෙනවා",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "No spelling or formatting issues observed.\r\nNegative form of the sentence is preserved.",
     "What is covered by the test": "Daily language usage\r\nNegation (negative form)\r\nM (31-299 characters)\r\nAccuracy Validation\r\n"
   },
   {
-    "__EMPTY": 4,
+    "No": 4,
     "TC ID": "Pos_Fun_004",
     "Test Case Name": "Verify  translation of informal phrasing",
     "Input Type Length": "M",
@@ -41,10 +44,11 @@ const testData = [
     "Expected Output": "අනේ මේ! ඔයා එහෙම කිව්වා කියලා මට ඒක කරන්න බෑ.",
     "Actual Output": "අනේ මේ! ඔයා එහෙම කිව්වා කියලා මට ඒක කරන්න බෑ.",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Sinhala spelling and punctuation are correct. \r\nInformal phrasing of the sentence is preserved. ",
     "What is covered by the test": "Slang / informal language\r\nPronoun variation \r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 5,
+    "No": 5,
     "TC ID": "Pos_Fun_005",
     "Test Case Name": "Verify  translation of simple frequently used day-to-day expressions",
     "Input Type Length": "S",
@@ -52,10 +56,11 @@ const testData = [
     "Expected Output": "මම අද උදෙන්ම අවදි වුනා",
     "Actual Output": "මම අද උදෙන්ම අවදි වුනා",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Simple, frequently used daily expression translated correctly. \r\nSpelling and sentence meaning preserved",
     "What is covered by the test": "Daily language usage\r\nSimple sentence\r\nS (≤30 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 6,
+    "No": 6,
     "TC ID": "Pos_Fun_006",
     "Test Case Name": "Verify translation of frequent collocations ",
     "Input Type Length": "S",
@@ -63,10 +68,11 @@ const testData = [
     "Expected Output": "ඒක හරිම ලස්සනයි නේ",
     "Actual Output": "ඒක හරිම ලස්සනයි නේ",
     "Status": "PASS",
-    "What is covered by the test": "Word combination / phrase pattern\r\nSimple sentence\r\nS (≤30 characters)\r\nAccuracy Validation"
+    "Accuracy  justification/ Description of issue type": "Frequent collocation correctly translated. \r\nWord combination preserved.\r\n Spelling and meaning accurate",
+    "What is covered by the test": "Word combination / phrase pattern\r\nSinple sentence\r\nS (≤30 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 7,
+    "No": 7,
     "TC ID": "Pos_Fun_007",
     "Test Case Name": "Verify translation of repeated word expressions used for emphasis",
     "Input Type Length": "M",
@@ -74,10 +80,11 @@ const testData = [
     "Expected Output": "වැස්ස හිමින් හිමින් මේ පැත්තටත් එනවා වගේ නේ",
     "Actual Output": "වැස්ස හිමින් හිමින් මේ පැත්තටත් එනවා වගේ නේ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Repeated word expressions for emphasis preserved. Spelling and sentence meaning correct",
     "What is covered by the test": "Daily language usage\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 8,
+    "No": 8,
     "TC ID": "Pos_Fun_008",
     "Test Case Name": "Verify translation of tense variations (future)",
     "Input Type Length": "M",
@@ -85,10 +92,11 @@ const testData = [
     "Expected Output": "අපි ලබන මාසයේදි හම්බවෙමු",
     "Actual Output": "අපි ලබන මාසයේදි හම්බවෙමු",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Future tense accurately translated. \r\nMeaning, tense, and spelling preserved",
     "What is covered by the test": "Daily language usage\r\nFuture tense\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 9,
+    "No": 9,
     "TC ID": "Pos_Fun_009",
     "Test Case Name": "Verify translation of negation patterns",
     "Input Type Length": "M",
@@ -96,10 +104,11 @@ const testData = [
     "Expected Output": "\"ආ එහෙමද? නැහැ! මං දැනගෙන හිටියේ නැහැ.\" ",
     "Actual Output": "\"ආ එහෙමද? නැහැ! මං දැනගෙන හිටියේ නැහැ.\" ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Negation and punctuation correctly handled.\r\nMixed punctuation preserved. \r\nSentence meaning accurate",
     "What is covered by the test": "Punctuation / numbers\r\nNegation (negative form)\r\nm (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 10,
+    "No": 10,
     "TC ID": "Pos_Fun_010",
     "Test Case Name": "Verify translation of singular usage",
     "Input Type Length": "M",
@@ -107,10 +116,11 @@ const testData = [
     "Expected Output": "\"මම කම්මල්කාරයෙක් හැටියට ජීවිතේ අලුතින් පටන් ගන්න පොඩ්ඩක්වත් කැමති වුනේ නෑ\"",
     "Actual Output": "\"මම කම්මල්කාරයෙක් හැටියට ජීවිතේ අලුතින් පටන් ගන්න පොඩ්ඩක්වත් කැමති වුනේ නෑ\"",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Singular usage translated correctly. \r\nPronoun and sentence meaning preserved",
     "What is covered by the test": "Response\r\nPronoun variation\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 11,
+    "No": 11,
     "TC ID": "Pos_Fun_011",
     "Test Case Name": "Verify translation of request forms with varying degrees of politeness",
     "Input Type Length": "M",
@@ -118,10 +128,11 @@ const testData = [
     "Expected Output": "\"මට සමවෙන්න! ඔබට හැකි ඉක්මනින් මට ඒ ලියවිල්ල ලබා දිය හැකි ද?\"",
     "Actual Output": "\"මට සමවෙන්න! ඔබට හැකි ඉක්මනින් මට ඒ ලියවිල්ල ලබා දිය හැකි ද?\"",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Request sentence translated with correct politeness and meaning. \r\nSpelling and punctuation correct",
     "What is covered by the test": "Request\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 12,
+    "No": 12,
     "TC ID": "Pos_Fun_012",
     "Test Case Name": "Verify translation of English technical/brand terms embedded in Singlish",
     "Input Type Length": "M",
@@ -129,10 +140,11 @@ const testData = [
     "Expected Output": "ඔයා අද තියෙන session එකට join වෙන්න ද ඉන්නේ? මට Microsoft teams link එක share කරන්නකො. Course Web එක මට access කරන්න බෑ නේ.",
     "Actual Output": "ඔයා අද තියෙන session එකට join වෙන්න ද ඉන්නේ? මට Microsoft teams link එක share කරන්නකො. Course Web එක මට access කරන්න බෑ නේ.",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "English technical/brand terms embedded in Singlish preserved correctly. \r\nSentence meaning accurate",
     "What is covered by the test": "Mixed Singlish + English\r\nCompound sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 13,
+    "No": 13,
     "TC ID": "Pos_Fun_013",
     "Test Case Name": "Verify translation of sentences containing  common English words ",
     "Input Type Length": "M",
@@ -140,10 +152,11 @@ const testData = [
     "Expected Output": "Congratulations! මං දැක්කා linkedin post එක ඔයාට promotion එකක් ලැබුනා කියලා.",
     "Actual Output": "Congratulations! මං දැක්කා linkedin post එක ඔයාට promotion එකක් ලැබුනා කියලා.",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Common English words translated accurately. \r\nSpelling, punctuation, and sentence meaning preserved.",
     "What is covered by the test": "Common english words\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 14,
+    "No": 14,
     "TC ID": "Pos_Fun_014",
     "Test Case Name": "Verify translation of english abbreviations and short forms ",
     "Input Type Length": "M",
@@ -151,10 +164,23 @@ const testData = [
     "Expected Output": "HR manager මට කිව්වා mage reporting manager ව CC කරලා mage request එක එwඅන්න කියලා. CV එකයි NIC එකෙයි copies උත් attach කරන්න ඕනේ ඒ email එකටම. ",
     "Actual Output": "HR manager මට කිව්වා mage reporting manager ව CC කරලා mage request එක එwඅන්න කියලා. CV එකයි NIC එකෙයි copies උත් attach කරන්න ඕනේ ඒ email එකටම. ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "English abbreviations and short forms preserved correctly.\r\nMixed Singlish + English handled accurately",
     "What is covered by the test": "Mixed Singlish + English\r\nCompound sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 15,
+    "No": 15,
+    "TC ID": "Pos_Fun_015",
+    "Test Case Name": "Verify translation of Paragraph-style input (long)",
+    "Input Type Length": "L",
+    "Input": "vidheesha katayuthu, vidheesha raekiyaa saha sQQchaaraka amaathYA vijitha heerath mahathaa saha shrii lQQkaa sQQchaaraka sQQvarDhana vaedasatahana kriyaathmaka kiriima saDHAhaa vuu janaaDhipathi kaaryAsaaDhaka balakaayee saamaajikayan athara hamuvak janaaDhipathi kaaryaalayeedhii adha (30) peravaruvee paevaethviNi.\r\n\r\nmeratata paemiNena vidheeshiiya sQQchaarakayanta naeraBum sThaanavalata pivisiima pahasu vanu piNisa dijital praveesha pathrayak hadhunvaa dhiimee kriyaavaliyehi labaa aethi pragathiya menma sQQchaarakayangee viisaa sambanDha katayuthu kadinamin sidhu kiriima kerehith mema saakachChaaveedhii avaDhaanaya yomu keriNi.\r\n\r\n",
+    "Expected Output": "විදේශ කටයුතු, විදේශ රැකියා සහ සංචාරක අමාත්‍ය විජිත හේරත් මහතා සහ ශ්‍රී ලංකා සංචාරක සංවර්ධන වැඩසටහන ක්‍රියාත්මක කිරීම සඳහා වූ ජනාධිපති කාර්යසාධක බලකායේ සාමාජිකයන් අතර හමුවක් ජනාධිපති කාර්යාලයේදී අද (30) පෙරවරුවේ පැවැත්විණි.\r\n\r\nමෙරටට පැමිණෙන විදේශීය සංචාරකයන්ට නැරඹුම් ස්ථානවලට පිවිසීම පහසු වනු පිණිස ඩිජිටල් ප්‍රවේශ පත්‍රයක් හදුන්වා දීමේ ක්‍රියාවලියෙහි ලබා ඇති ප්‍රගතිය මෙන්ම සංචාරකයන්ගේ වීසා සම්බන්ධ කටයුතු කඩිනමින් සිදු කිරීම කෙරෙහිත් මෙම සාකච්ඡාවේදී අවධානය යොමු කෙරිණි.\r\n\r\n",
+    "Actual Output": "විදේශ කටයුතු, විදේශ රැකියා සහ සංචාරක අමාත්‍ය විජිත හේරත් මහතා සහ ශ්‍රී ලංකා සංචාරක සංවර්ධන වැඩසටහන ක්‍රියාත්මක කිරීම සඳහා වූ ජනාධිපති කාර්යසාධක බලකායේ සාමාජිකයන් අතර හමුවක් ජනාධිපති කාර්යාලයේදී අද (30) පෙරවරුවේ පැවැත්විණි.\r\n\r\nමෙරටට පැමිණෙන විදේශීය සංචාරකයන්ට නැරඹුම් ස්ථානවලට පිවිසීම පහසු වනු පිණිස ඩිජිටල් ප්‍රවේශ පත්‍රයක් හදුන්වා දීමේ ක්‍රියාවලියෙහි ලබා ඇති ප්‍රගතිය මෙන්ම සංචාරකයන්ගේ වීසා සම්බන්ධ කටයුතු කඩිනමින් සිදු කිරීම කෙරෙහිත් මෙම සාකච්ඡාවේදී අවධානය යොමු කෙරිණි.\r\n\r\n",
+    "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "The system correctly converts the Singlish content into Sinhala while preserving the intended meaning.",
+    "What is covered by the test": "Singlish/ Numbers\r\nComplex Sentence\r\nL (≥300 characters)\r\nAccuracy Validation"
+  },
+  {
+    "No": 15,
     "TC ID": "Pos_Fun_015",
     "Test Case Name": "Verify translation of inputs containing punctuation marks",
     "Input Type Length": "M",
@@ -162,10 +188,11 @@ const testData = [
     "Expected Output": "\"මොනවා!! ඔහුට කිසිසේත්ම අයිතියක් නෑ ඔබට එසේ පවසන්න. ඇයි ඔබ කිසි දෙයක් පවසන්නේ නැතුව සිටියේ??!\" ",
     "Actual Output": "\"මොනවා!! ඔහුට කිසිසේත්ම අයිතියක් නෑ ඔබට එසේ පවසන්න. ඇයි ඔබ කිසි දෙයක් පවසන්නේ නැතුව සිටියේ??!\" ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Punctuation marks correctly handled. \r\nComplex sentence structure maintained. \r\nMeaning preserved",
     "What is covered by the test": "Punctuation\r\nComplex sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 16,
+    "No": 16,
     "TC ID": "Pos_Fun_016",
     "Test Case Name": "Verify translation of multiple spaces, line breaks, and paragraph inputs",
     "Input Type Length": "M",
@@ -173,10 +200,11 @@ const testData = [
     "Expected Output": "අපි හෙට උදෙන්ම   බස් එකට     නගිමු නේද? \r\nඑතකොට අපිට   කලින් යන්න පුලුවන් office එකට",
     "Actual Output": "අපි හෙට උදෙන්ම   බස් එකට     නගිමු නේද? \r\nඑතකොට අපිට   කලින් යන්න පුලුවන් office එකට",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Multiple spaces, line breaks, and paragraphs correctly preserved. \r\nSentence meaning and spacing maintained",
     "What is covered by the test": "Daily language usage\r\nCompound sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 17,
+    "No": 17,
     "TC ID": "Pos_Fun_017",
     "Test Case Name": "Verify translation of Slang and colloquial phrasing",
     "Input Type Length": "M",
@@ -184,10 +212,11 @@ const testData = [
     "Expected Output": "\"අයියෝ! මට අමතක වුනා ඒක ගෙන්න අද. කමක් නැද්ද මං හෙට ගෙනාවොත්?\"",
     "Actual Output": "\"අයියෝ! මට අමතක වුනා ඒක ගෙන්න අද. කමක් නැද්ද මං හෙට ගෙනාවොත්?\"",
     "Status": "PASS",
-    "What is covered by the test": "Slang/ Informal language\r\nCompound sentence\r\nM (31-299 charactes)\r\nAccuracy Validation"
+    "Accuracy  justification/ Description of issue type": "Slang and colloquial phrasing translated accurately. \r\nSentence meaning and informal tone preserved.",
+    "What is covered by the test": "Slang/ Informal language\r\nComponud sentence\r\nM (31-299 charactes)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 18,
+    "No": 18,
     "TC ID": "Pos_Fun_018",
     "Test Case Name": "Verify translation of common english words ",
     "Input Type Length": "M",
@@ -195,10 +224,11 @@ const testData = [
     "Expected Output": "ඔයාලා group details දාලා register වුනාද?",
     "Actual Output": "ඔයාලා group details දාලා register වුනාද?",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Common English words and names/places correctly translated. \r\nInterrogative sentence preserved.",
     "What is covered by the test": "Names / places / common English words\r\nInterrogative (question)\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 19,
+    "No": 19,
     "TC ID": "Pos_Fun_019",
     "Test Case Name": "Verify translation of simple sentence",
     "Input Type Length": "M",
@@ -206,10 +236,11 @@ const testData = [
     "Expected Output": "ඔයාට මොකක්ද මගෙන් කෙරෙන්න ඕනේ? ",
     "Actual Output": "ඔයාට මොකක්ද මගෙන් කෙරෙන්න ඕනේ? ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Simple sentence translated correctly. \r\nMeaning, spelling, and punctuation preserve",
     "What is covered by the test": "Response\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 20,
+    "No": 20,
     "TC ID": "Pos_Fun_020",
     "Test Case Name": "Verify translation of greeting",
     "Input Type Length": "M",
@@ -217,10 +248,11 @@ const testData = [
     "Expected Output": "සුබ උදෑසනක් වේවා ඔබ සැමට!",
     "Actual Output": "සුබ උදෑසනක් වේවා ඔබ සැමට!",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "The greeting meaning is preserved.\r\nSpelling and punctuation correct.\r\n",
     "What is covered by the test": "Greeting\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 21,
+    "No": 21,
     "TC ID": "Pos_Fun_021",
     "Test Case Name": "Verify translation  of slang/ informal language",
     "Input Type Length": "M",
@@ -228,10 +260,11 @@ const testData = [
     "Expected Output": "ලොකු ලොකු scene මෙහෙත් වෙනවා ලු",
     "Actual Output": "ලොකු ලොකු scene මෙහෙත් වෙනවා ලු",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Slang/Informal sentence translated correctly. \r\nMeaning and spelling preserved",
     "What is covered by the test": "Daily language usage\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 22,
+    "No": 22,
     "TC ID": "Pos_Fun_022",
     "Test Case Name": "Verify translation of english abbreviations",
     "Input Type Length": "M",
@@ -239,10 +272,11 @@ const testData = [
     "Expected Output": "MERN stack කියන්නෙ ගිය පාර අපි ITP project එකට use කරපු tech stack එක",
     "Actual Output": "MERN stack කියන්නෙ ගිය පාර අපි ITP project එකට use කරපු tech stack එක",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Mixed Singlish + English sentence translated accurately. \r\nTechnical terms preserved.",
     "What is covered by the test": "Mixed singlish + english\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 23,
+    "No": 23,
     "TC ID": "Pos_Fun_023",
     "Test Case Name": "Verify translation of time formats",
     "Input Type Length": "M",
@@ -250,10 +284,11 @@ const testData = [
     "Expected Output": "අපේ ඉස්කෝලේ 7.30 a.m. ඉදන් 1.30 p.m. වෙනකන් තියෙනවා",
     "Actual Output": "අපේ ඉස්කෝලේ 7.30 a.m. ඉදන් 1.30 p.m. වෙනකන් තියෙනවා",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Time formats correctly preserved. \r\nSpelling, punctuation, and sentence meaning accurate.",
     "What is covered by the test": "Response\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 24,
+    "No": 24,
     "TC ID": "Pos_Fun_024",
     "Test Case Name": "Verify translation of units of measurements",
     "Input Type Length": "M",
@@ -261,10 +296,11 @@ const testData = [
     "Expected Output": "මට පාන් පිටි 1kg දෙන්න පුලුවන් ද? ",
     "Actual Output": "මට පාන් පිටි 1kg දෙන්න පුලුවන් ද? ",
     "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Units of measurement translated correctly. \r\nSentence meaning and spelling preserved",
     "What is covered by the test": "Request\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 25,
+    "No": 25,
     "TC ID": "Neg_Fun_001",
     "Test Case Name": "Verify command form\r\n",
     "Input Type Length": "M",
@@ -272,21 +308,23 @@ const testData = [
     "Expected Output": "ඔයා main building 7th floor එකට ගිහින් LIC ව හම්බවෙලා new building එකේ 2nd floor එකට ඉක්මනටම එන්න.",
     "Actual Output": "ඔයා main building 7ත් floor එකට ගිහින් LIC ව හම්බවෙලා new building එකේ 2න්ඩ් floor එකට ඉක්මනටම එන්න.",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Incorrect conversion of floor numbers and building names. \r\nMixed English-Sinhala formatting issues observed. \r\nMeaning partially altered.",
     "What is covered by the test": "Names / places / common English words\r\nImperative (command)\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 26,
+    "No": 26,
     "TC ID": "Neg_Fun_002",
     "Test Case Name": "Verify translation of joined words",
     "Input Type Length": "M",
-    "Input": "mama mee sem eketh kohomahari deans' list ekata select vena vaa",
+    "Input": "mama mee sem eketh kohomahari deans' list ekata select venavaa",
     "Expected Output": "මම මේ sem එකෙත් කොහොමහරි deans' list එකට select වෙනවා",
     "Actual Output": "මම මේ සෙම් එකෙත් කොහොමහරි deans' list එකට select වෙනවා",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Informal english term not preserved",
     "What is covered by the test": "Formatting (spaces / line breaks / paragraph)\r\nPronoun variation\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 27,
+    "No": 27,
     "TC ID": "Neg_Fun_003",
     "Test Case Name": "Verify translation of currency",
     "Input Type Length": "M",
@@ -294,10 +332,11 @@ const testData = [
     "Expected Output": "Baharaini Dinar කියන්නෙ Bahrain රටේ currency එක",
     "Actual Output": "ඹහ්‍රෛනි Dinar කියන්නෙ Bahrain රටේ currency එක",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Currency name misspelled. \r\nSpelling and transliteration issues observed. \r\nMeaning altered.",
     "What is covered by the test": "Daily language usage\r\nSimple sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 28,
+    "No": 28,
     "TC ID": "Neg_Fun_004",
     "Test Case Name": "Verify translation of Sinhala + English phrase",
     "Input Type Length": "M",
@@ -305,10 +344,11 @@ const testData = [
     "Expected Output": "එයාව මට හම්බුනේ නෑ. මං එයාට කියන්න ඕනේ \"I am sorry for everything\" කියලා",
     "Actual Output": "එයාව මට හම්බුනේ නෑ. මං එයාට කියන්න ඕනේ \"ඉ am sorry for everything\" කියලා",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "English phrase incorrectly translated. \r\nPronoun issue; meaning partially lost.",
     "What is covered by the test": "Mixed Singlish + English\r\nPronoun variation\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 29,
+    "No": 29,
     "TC ID": "Neg_Fun_005",
     "Test Case Name": "Verify translation of complete english phrase",
     "Input Type Length": "M",
@@ -316,10 +356,11 @@ const testData = [
     "Expected Output": "I am really really sorry. What should I do? Never have I ever doubted you. Please forgive me.",
     "Actual Output": "ඉ am really really sorry. What should ඉ ඩො? Never have ඉ ever doubted you. Please forgive මෙ.",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Multiple English sentences incorrectly translated. \r\nSpelling and meaning partially lost. \r\nSentence structure broken",
     "What is covered by the test": "Common English words\r\nComplex sentence\r\nM (31-299 characters)\r\nAccuracy Validation"
   },
   {
-    "__EMPTY": 30,
+    "No": 30,
     "TC ID": "Neg_Fun_006",
     "Test Case Name": "Verify translation of phrases with missing spaces",
     "Input Type Length": "S",
@@ -327,10 +368,11 @@ const testData = [
     "Expected Output": "ඔයා මට එන්න කිව්වේ නෑනේ   ",
     "Actual Output": "ඔයාමටැන්නකිව්වේනෑනේ  ",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Missing spaces in output; words concatenated. Sentence meaning somewhat understandable but formatting incorrect",
     "What is covered by the test": "Simple sentence\r\nResponse\r\nS ( ≤30 characters) \r\nRobustness Validation"
   },
   {
-    "__EMPTY": 31,
+    "No": 31,
     "TC ID": "Neg_Fun_007",
     "Test Case Name": "Verify translation  of slang/ informal language",
     "Input Type Length": "M",
@@ -338,10 +380,11 @@ const testData = [
     "Expected Output": "Intern එකක් set වුනා ද ඔයාට? ",
     "Actual Output": "Intern එකක් සෙට් වුනා ද ඔයාට? ",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Common English word not preserved. ",
     "What is covered by the test": "Word combination\r\nSimple sentence\r\nS ( ≤30 characters) \r\nRobustness Validation"
   },
   {
-    "__EMPTY": 32,
+    "No": 32,
     "TC ID": "Neg_Fun_008",
     "Test Case Name": "Verify translation of daily conversation_2",
     "Input Type Length": "M",
@@ -349,10 +392,11 @@ const testData = [
     "Expected Output": "ඔයාගෙ student id එකේ copy එකක් දුන්නා නේද එයාලට?",
     "Actual Output": "ඔයාගෙ student ඉඩ් එකේ copy එකක් දුන්නා නේද එයාලට?",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Mixed Singlish + English incorrectly converted. \r\nPronoun 'id' mis-transliterated. \r\nMeaning affected",
     "What is covered by the test": "Mixed Singlish + English\r\nSimple sentence\r\nS ( ≤30 characters) \r\nRobustness Validation"
   },
   {
-    "__EMPTY": 33,
+    "No": 33,
     "TC ID": "Neg_Fun_009",
     "Test Case Name": "Verify translation of english phrase with date",
     "Input Type Length": "S",
@@ -360,10 +404,11 @@ const testData = [
     "Expected Output": "Her birthday is on 2003.08.20",
     "Actual Output": "Her birthday ඉස් on 2003.08.20",
     "Status": "FAIL",
-    "What is covered by the test": "Daily language usage\r\nPronoun variation\r\nS ( ≤30 characters) \r\nRobustness Validation"
+    "Accuracy  justification/ Description of issue type": "English phrase is not preserved.\r\nMeaning affected.",
+    "What is covered by the test": "Daily language usage\r\nPronoun variation\r\nS (  ≤30 characters) \r\nRobustness Validation"
   },
   {
-    "__EMPTY": 34,
+    "No": 34,
     "TC ID": "Neg_Fun_010",
     "Test Case Name": "Verify translation of english short form",
     "Input Type Length": "S",
@@ -371,8 +416,20 @@ const testData = [
     "Expected Output": "ඔයාගෙ gpa එක කීයද?",
     "Actual Output": "ඔයාගෙ cග්ප එක කීයද?",
     "Status": "FAIL",
+    "Accuracy  justification/ Description of issue type": "Short form 'cgpa' transliterated incorrectly. \r\nMixed English/Sinhala formatting issue; meaning affected.",
     "What is covered by the test": "Common english words\r\nSimple sentence\r\nS ( ≤30 characters) \r\nRobustness Validation"
+  },
+  {
+    "No": 35,
+    "TC ID": "Pos_UI_001",
+    "Test Case Name": "Verify 'Help' opens up the 'Singlish Character Mapping' popup",
+    "Input": "Click 'Help' in navigation bar",
+    "Expected Output": "Singlish Charater Mapping' popup should be open",
+    "Actual Output": "The popup opens successfully",
+    "Status": "PASS",
+    "Accuracy  justification/ Description of issue type": "Popup opens correctly. \r\nReal-time output behavior preserved as expected.",
+    "What is covered by the test": "Real-time output update behavior"
   }
 ];
 
-module.exports = testData;
+export default testData;
