@@ -204,70 +204,70 @@ test('Pos_Fun_025', async ({ page }) => {
 test('Neg_Fun_001', async ({ page }) => {
   await verifyTranslation(page,
     'oyaa main building 7th floor ekata gihin LIC va hambavelaa new building ekee 2nd floor ekata ikmanatama enna.',
-    'ඔයා main building 7ත් floor එකට ගිහින් LIC ව හම්බවෙලා new building එකේ 2න්ඩ් floor එකට ඉක්මනටම එන්න.'
+    'ඔයා main building 7th floor එකට ගිහින් LIC ව හම්බවෙලා new building එකේ 2nd floor එකට ඉක්මනටම එන්න.'
   );
 });
 
 test('Neg_Fun_002', async ({ page }) => {
   await verifyTranslation(page,
     "mama mee sem eketh kohomahari deans' list ekata select venavaa",
-    'මම මේ සෙම් එකෙත් කොහොමහරි deans\' list එකට select වෙනවා'
+    'මම මේ sem එකෙත් කොහොමහරි deans\' list එකට select වෙනවා'
   );
 });
 
 test('Neg_Fun_003', async ({ page }) => {
   await verifyTranslation(page,
     'Bahraini Dinar kiyanne Bahrain ratee currency eka',
-    'ඹහ්‍රෛනි Dinar කියන්නෙ Bahrain රටේ currency එක'
+    'Bahraini Dinar කියන්නෙ Bahrain රටේ currency එක'
   );
 });
 
 test('Neg_Fun_004', async ({ page }) => {
   await verifyTranslation(page,
     'eyaava mata hambunee naee. maQQ eyaata kiyanna oonee "I am sorry for everything" kiyalaa',
-    'එයාව මට හම්බුනේ නෑ. මං එයාට කියන්න ඕනේ "ඉ am sorry for everything" කියලා'
+    'එයාව මට හම්බුනේ නෑ. මං එයාට කියන්න ඕනේ "I am sorry for everything" කියලා'
   );
 });
 
 test('Neg_Fun_005', async ({ page }) => {
   await verifyTranslation(page,
     'I am really really sorry. What should I do? Never have I ever doubted you. Please forgive me.',
-    'ඉ am really really sorry. What should ඉ ඩො? Never have ඉ ever doubted you. Please forgive මෙ.'
+    'I am really really sorry. What should I do? Never have I ever doubted you. Please forgive me.'
   );
 });
 
 test('Neg_Fun_006', async ({ page }) => {
   await verifyTranslation(page,
     'oyaamataennakivveenaeenee',
-    'ඔයාමටැන්නකිව්වේනෑනේ'
+    'ඔයා මට එන්න කිව්වේ නෑනේ'
   );
 });
 
 test('Neg_Fun_007', async ({ page }) => {
   await verifyTranslation(page,
     'Intern ekak set vunaa dha oyaata?',
-    'Intern එකක් සෙට් වුනා ද ඔයාට?'
+    'Intern එකක් set වුනා ද ඔයාට?'
   );
 });
 
 test('Neg_Fun_008', async ({ page }) => {
   await verifyTranslation(page,
     'oyaage student id ekee copy ekak dhunnaa needha eyaalata?',
-    'ඔයාගෙ student ඉඩ් එකේ copy එකක් දුන්නා නේද එයාලට?'
+    'ඔයාගෙ student id එකේ copy එකක් දුන්නා නේද එයාලට?'
   );
 });
 
 test('Neg_Fun_009', async ({ page }) => {
   await verifyTranslation(page,
-    'Her birthday is on 2003.08.20',
-    'Her birthday ඉස් on 2003.08.20'
+    'Her birthday is 2003.08.20',
+    'Her birthday is 2003.08.20'
   );
 });
 
 test('Neg_Fun_010', async ({ page }) => {
   await verifyTranslation(page,
     'Oyaage cgpa eka kiiyadha?',
-    'ඔයාගෙ cග්ප එක කීයද?'
+    'ඔයාගෙ cgpa එක කීයද?'
   );
 });
 
