@@ -13,7 +13,7 @@ async function verifyTranslation(page, input, expected) {
   );
 
   await inputBox.fill(input);
-  await expect(outputBox).toHaveText(expected, { timeout: 30000 });
+  await expect(outputBox).toHaveText(expected, { timeout: 25000 });
 }
 
 /* ---------------- POSITIVE FUNCTIONAL (1–25) ---------------- */
