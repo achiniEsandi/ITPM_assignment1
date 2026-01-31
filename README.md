@@ -7,7 +7,7 @@
 ## Installation
 
 1. Clone repository - 
-git clone https://github.com/yourusername/swifttranslator-playwright-tests
+git clone https://github.com/achiniEsandi/ITPM_assignment1
 
 2. Install dependencies - 
 npm install
