@@ -1,4 +1,4 @@
-# ITPM_assignment1 - SwiftTranslator Playwright Automation Tests
+# SwiftTranslator Playwright Automation Tests
 
 This repository contains automated end-to-end tests for the SwiftTranslator application using Playwright. The tests cover various functional scenarios, including positive and negative test cases for translation features.
 
