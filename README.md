@@ -70,24 +70,4 @@ After running tests, view the HTML report:
 npx playwright show-report
 ```
 
-The report will open in your default browser, showing test results, screenshots, and traces.
-
-
-
-## Configuration
-
-The `playwright.config.js` file contains the test configuration, including:
-- Browser settings
-- Test timeouts
-- Screenshot and video settings
-- Reporter configuration
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-test`)
-3. Commit your changes (`git commit -am 'Add new test'`)
-4. Push to the branch (`git push origin feature/new-test`)
-5. Create a Pull Request
-
 
